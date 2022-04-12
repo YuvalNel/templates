@@ -6,7 +6,7 @@ resource "null_resource" "null2" {
   }
 }
 
-resource "null_resource" "null" {
+resource "null_resource" "nulld" {
   triggers = {
     tags = "my_tag_1"
   }
