@@ -10,4 +10,4 @@ resource "null_resource" "nulld" {
   triggers = {
     tags = "my_tag_1"
   }
-}
+}gg
