@@ -1,3 +1,3 @@
-resource "null_resource" "nutll_ffe2" {
+resource "null_resource" "nutll_dffe2" {
 
 }
