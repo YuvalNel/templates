@@ -1,3 +1,3 @@
-resource "null_resource" "nutll_ne232222sd423442327391" {
+resource "null_resource" "nutll_ne232222כsd423442327391" {
 
 }
