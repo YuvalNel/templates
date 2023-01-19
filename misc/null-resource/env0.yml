@@ -4,4 +4,4 @@ deploy:
   steps:
     terraformApply:
       after:
-        - echo local new2
+        - echo local new22
