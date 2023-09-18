@@ -4,4 +4,4 @@ deploy:
     terraformInit:
       before:
         - name: Terragrunt Modules Detection
-          use: https://github.com/env0/env0-terragrunt-modules-detection-plugin@fix-add-origin-for-remote-branch
+          use: https://github.com/env0/env0-terragrunt-modules-detection-plugin
