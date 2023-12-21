@@ -1,7 +1,9 @@
-version: 1
+version: 2
 
 deploy:
   steps:
     terraformInit:
-      before:
-        - sleep 10
+      - name: check my coode
+          run: echo my script
+      - name: error
+          run: lsssss
