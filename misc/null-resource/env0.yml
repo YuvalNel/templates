@@ -4,6 +4,6 @@ deploy:
   steps:
     terraformInit:
       - name: check my coode
-          run: echo my script
+        run: echo my script
       - name: error
-          run: lsssss
+        run: lsssss
