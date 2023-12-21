@@ -6,5 +6,3 @@ deploy:
       after:
         - name: check my coode
           run: echo my script
-        - name: error
-          run: lsssss
