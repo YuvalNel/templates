@@ -5,4 +5,4 @@ deploy:
     terraformInit:
       after:
         - name: check my coode
-          run: sleep 60
+          run: echo my
