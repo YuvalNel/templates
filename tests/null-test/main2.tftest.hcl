@@ -4,3 +4,11 @@ run "test1" {
     error_message = "Incorrect content in ${local_file.test.filename}."
   }
 }
+
+
+run "test2" {
+  assert {
+    condition     = null_resource.hever[3].triggers.test == "Hello worדld!"
+    error_message = "Incorrect content in ${local_file.test.filename}."
+  }
+}
