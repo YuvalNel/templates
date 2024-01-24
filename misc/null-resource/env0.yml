@@ -4,5 +4,5 @@ deploy:
   steps:
     terraformInit:
       after:
-        - name: check my coode
+        - name: check my coodess
           run: echo my
