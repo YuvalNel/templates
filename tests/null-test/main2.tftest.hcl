@@ -8,7 +8,7 @@ run "test1" {
 
 run "test2" {
   assert {
-    condition     = null_resource.hever[3].triggers.test == "hssssseveddddsss"
+    condition     = null_resource.hever[3].triggers.test == "Hello world!"
     error_message = "Incorrect content in ${local_file.test.filename}."
   }
 }
