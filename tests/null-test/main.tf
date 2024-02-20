@@ -16,7 +16,7 @@ resource "null_resource" "hever" {
 }
 
 variable "counter" {
-    default = 0
+    default = 1
 }
 
 variable "instances" {
